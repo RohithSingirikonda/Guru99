@@ -36,8 +36,6 @@ public class TestScript05 {
 	
 		return data;
 	}
-
-
 	
 	@BeforeMethod
 	public void setUp() throws Exception {
