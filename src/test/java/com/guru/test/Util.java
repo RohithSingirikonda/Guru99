@@ -8,8 +8,8 @@ public class Util {
     public static final String BASE_URL = "http://www.demo.guru99.com/V4/";
 
 
-    public static final String USER_NAME = "mngr135595";
-    public static final String PASSWD = "ruzUjEn";
+    public static final String USER_NAME = "mngr146280";
+    public static final String PASSWD = "jahAqEq";
 
     
     

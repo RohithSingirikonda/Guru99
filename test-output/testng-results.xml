@@ -1,109 +1,70 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="4" passed="4">
+<testng-results skipped="0" failed="0" ignored="0" total="3" passed="3">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="148511" started-at="2018-07-08T14:52:18Z" finished-at="2018-07-08T14:54:47Z">
+  <suite name="Default suite" duration-ms="90083" started-at="2018-08-03T06:54:37Z" finished-at="2018-08-03T06:56:07Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="148511" started-at="2018-07-08T14:52:18Z" finished-at="2018-07-08T14:54:47Z">
-      <class name="com.guru.test.TestScript05">
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.guru.test.TestScript05@dafa95]" name="setUp" is-config="true" duration-ms="44050" started-at="2018-07-08T20:22:18Z" finished-at="2018-07-08T20:23:02Z">
+    <test name="Default test" duration-ms="90083" started-at="2018-08-03T06:54:37Z" finished-at="2018-08-03T06:56:07Z">
+      <class name="guruAugustTestNG.AameritradeTest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:guruAugustTestNG.AameritradeTest@bf9759]" name="setUp" is-config="true" duration-ms="19523" started-at="2018-08-03T12:24:38Z" finished-at="2018-08-03T12:24:58Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="testCase05(java.lang.String, java.lang.String)[pri:0, instance:com.guru.test.TestScript05@dafa95]" name="testCase05" duration-ms="1374" started-at="2018-07-08T20:23:02Z" data-provider="GuruTest" finished-at="2018-07-08T20:23:04Z">
+        <test-method status="PASS" signature="LoginTest(java.lang.String)[pri:0, instance:guruAugustTestNG.AameritradeTest@bf9759]" name="LoginTest" duration-ms="985" started-at="2018-08-03T12:24:58Z" data-provider="languageTest" finished-at="2018-08-03T12:24:59Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[mngr135595]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[ruzUjEn]]>
+                <![CDATA[English]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- testCase05 -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.guru.test.TestScript05@dafa95]" name="tearDown" is-config="true" duration-ms="965" started-at="2018-07-08T20:23:04Z" finished-at="2018-07-08T20:23:05Z">
+        </test-method> <!-- LoginTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:guruAugustTestNG.AameritradeTest@bf9759]" name="tearDown" is-config="true" duration-ms="2327" started-at="2018-08-03T12:24:59Z" finished-at="2018-08-03T12:25:01Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.guru.test.TestScript05@dafa95]" name="setUp" is-config="true" duration-ms="31863" started-at="2018-07-08T20:23:05Z" finished-at="2018-07-08T20:23:36Z">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:guruAugustTestNG.AameritradeTest@bf9759]" name="setUp" is-config="true" duration-ms="17903" started-at="2018-08-03T12:25:01Z" finished-at="2018-08-03T12:25:19Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="testCase05(java.lang.String, java.lang.String)[pri:0, instance:com.guru.test.TestScript05@dafa95]" name="testCase05" duration-ms="1266" started-at="2018-07-08T20:23:36Z" data-provider="GuruTest" finished-at="2018-07-08T20:23:38Z">
+        <test-method status="PASS" signature="LoginTest(java.lang.String)[pri:0, instance:guruAugustTestNG.AameritradeTest@bf9759]" name="LoginTest" duration-ms="2527" started-at="2018-08-03T12:25:19Z" data-provider="languageTest" finished-at="2018-08-03T12:25:22Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[invalid]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[valid]]>
+                <![CDATA[简体中文]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- testCase05 -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.guru.test.TestScript05@dafa95]" name="tearDown" is-config="true" duration-ms="869" started-at="2018-07-08T20:23:38Z" finished-at="2018-07-08T20:23:39Z">
+        </test-method> <!-- LoginTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:guruAugustTestNG.AameritradeTest@bf9759]" name="tearDown" is-config="true" duration-ms="2355" started-at="2018-08-03T12:25:22Z" finished-at="2018-08-03T12:25:24Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.guru.test.TestScript05@dafa95]" name="setUp" is-config="true" duration-ms="33238" started-at="2018-07-08T20:23:39Z" finished-at="2018-07-08T20:24:12Z">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:guruAugustTestNG.AameritradeTest@bf9759]" name="setUp" is-config="true" duration-ms="27197" started-at="2018-08-03T12:25:24Z" finished-at="2018-08-03T12:25:51Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="testCase05(java.lang.String, java.lang.String)[pri:0, instance:com.guru.test.TestScript05@dafa95]" name="testCase05" duration-ms="775" started-at="2018-07-08T20:24:12Z" data-provider="GuruTest" finished-at="2018-07-08T20:24:13Z">
+        <test-method status="PASS" signature="LoginTest(java.lang.String)[pri:0, instance:guruAugustTestNG.AameritradeTest@bf9759]" name="LoginTest" duration-ms="14155" started-at="2018-08-03T12:25:51Z" data-provider="languageTest" finished-at="2018-08-03T12:26:05Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[valid]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[invalid]]>
+                <![CDATA[繁體中文]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- testCase05 -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.guru.test.TestScript05@dafa95]" name="tearDown" is-config="true" duration-ms="873" started-at="2018-07-08T20:24:13Z" finished-at="2018-07-08T20:24:13Z">
+        </test-method> <!-- LoginTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:guruAugustTestNG.AameritradeTest@bf9759]" name="tearDown" is-config="true" duration-ms="2077" started-at="2018-08-03T12:26:05Z" finished-at="2018-08-03T12:26:07Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.guru.test.TestScript05@dafa95]" name="setUp" is-config="true" duration-ms="31501" started-at="2018-07-08T20:24:13Z" finished-at="2018-07-08T20:24:45Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="testCase05(java.lang.String, java.lang.String)[pri:0, instance:com.guru.test.TestScript05@dafa95]" name="testCase05" duration-ms="793" started-at="2018-07-08T20:24:45Z" data-provider="GuruTest" finished-at="2018-07-08T20:24:46Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[invalid]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[invalid]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- testCase05 -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.guru.test.TestScript05@dafa95]" name="tearDown" is-config="true" duration-ms="817" started-at="2018-07-08T20:24:46Z" finished-at="2018-07-08T20:24:47Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-      </class> <!-- com.guru.test.TestScript05 -->
+      </class> <!-- guruAugustTestNG.AameritradeTest -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

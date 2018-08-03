@@ -3,13 +3,13 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test name="Default test(failed)">
     <classes>
-      <class name="com.guru.test.TestScript">
+      <class name="guruAugustTestNG.AameritradeTest">
         <methods>
           <include name="setUp"/>
-          <include name="LoginTest" invocation-numbers="0"/>
+          <include name="LoginTest" invocation-numbers="0 1 2"/>
           <include name="tearDown"/>
         </methods>
-      </class> <!-- com.guru.test.TestScript -->
+      </class> <!-- guruAugustTestNG.AameritradeTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
